@@ -1,0 +1,276 @@
+INFO - 2023-10-10 05:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-10 07:07:24 --> Object of class App\Controllers\Home could not be converted to string
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 07:07:41 --> Object of class App\Controllers\Home could not be converted to string
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 07:07:42 --> Object of class App\Controllers\Home could not be converted to string
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 07:15:35 --> syntax error, unexpected token "return"
+in APPPATH\Models\ToursModel.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Projects\\orgoto-web\\app\\Models\\ToursModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ToursModel')
+ 3 APPPATH\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ToursModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 07:15:54 --> syntax error, unexpected token "return"
+in APPPATH\Models\ToursModel.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Projects\\orgoto-web\\app\\Models\\ToursModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ToursModel')
+ 3 APPPATH\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ToursModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 07:15:56 --> syntax error, unexpected token "return"
+in APPPATH\Models\ToursModel.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Projects\\orgoto-web\\app\\Models\\ToursModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ToursModel')
+ 3 APPPATH\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ToursModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 07:15:56 --> syntax error, unexpected token "return"
+in APPPATH\Models\ToursModel.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Projects\\orgoto-web\\app\\Models\\ToursModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ToursModel')
+ 3 APPPATH\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ToursModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:20:25 --> mysqli_sql_exception: Unknown column 'tours' in 'field list' in D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tours`....', 0)
+#1 D:\Projects\orgoto-web\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tours`....')
+#2 D:\Projects\orgoto-web\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tours`....')
+#3 D:\Projects\orgoto-web\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`....', Array, false)
+#4 D:\Projects\orgoto-web\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\orgoto-web\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Projects\orgoto-web\app\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+#7 D:\Projects\orgoto-web\app\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+#8 D:\Projects\orgoto-web\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#9 D:\Projects\orgoto-web\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Projects\orgoto-web\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\orgoto-web\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:20:25 --> Unknown column 'tours' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`.`id` as `tours_id`, `tours`
+FROM `tours`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:26:30 --> mysqli_sql_exception: Unknown column 'tours.journey_date_3 as tours_j3 tours.trip_map_description' in 'field list' in D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tours`....', 0)
+#1 D:\Projects\orgoto-web\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tours`....')
+#2 D:\Projects\orgoto-web\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tours`....')
+#3 D:\Projects\orgoto-web\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`....', Array, false)
+#4 D:\Projects\orgoto-web\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\orgoto-web\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Projects\orgoto-web\app\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+#7 D:\Projects\orgoto-web\app\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+#8 D:\Projects\orgoto-web\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#9 D:\Projects\orgoto-web\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Projects\orgoto-web\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\orgoto-web\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:26:30 --> Unknown column 'tours.journey_date_3 as tours_j3 tours.trip_map_description' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`.`id` as `tours_id`, `tours`.`cover_image` as `tour_cover_image`, `tours`.`title` as `tours_title`, `tours`.`short_description` as `tours_sh_desc`, `tours`.`price` as `tours_price`, `tours`.`duration` as `tours_duration`, `tours`.`journey_date_1` as `tours_j1`, `tours`.`journey_date_2` as `tours_j2`, `tours`.`journey_date_3 as tours_j3 tours`.`trip_map_description` as `tours_trip_map_description`, `tours_trip_map_image` as `tours_tmap`, `categories`.`name` as `c_name`, `places`.`name` as `p_name`
+FROM `tours`
+JOIN `categories` ON `tours`.`categories` = `categories`.`id`
+JOIN `places` ON `places`.`tours_id`=`tours`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:28:03 --> mysqli_sql_exception: Unknown column 'tours.journey_date_3 as tours_j3 tours.trip_map_description' in 'field list' in D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tours`....', 0)
+#1 D:\Projects\orgoto-web\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tours`....')
+#2 D:\Projects\orgoto-web\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tours`....')
+#3 D:\Projects\orgoto-web\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`....', Array, false)
+#4 D:\Projects\orgoto-web\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\orgoto-web\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Projects\orgoto-web\app\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+#7 D:\Projects\orgoto-web\app\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+#8 D:\Projects\orgoto-web\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#9 D:\Projects\orgoto-web\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Projects\orgoto-web\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\orgoto-web\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:28:03 --> Unknown column 'tours.journey_date_3 as tours_j3 tours.trip_map_description' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`.`id` as `tours_id`, `tours`.`cover_image` as `tour_cover_image`, `tours`.`title` as `tours_title`, `tours`.`short_description` as `tours_sh_desc`, `tours`.`price` as `tours_price`, `tours`.`duration` as `tours_duration`, `tours`.`journey_date_1` as `tours_j1`, `tours`.`journey_date_2` as `tours_j2`, `tours`.`journey_date_3 as tours_j3 tours`.`trip_map_description` as `tours_trip_map_description`, `tours_trip_map_image` as `tours_tmap`, `categories`.`name` as `c_name`
+FROM `tours`
+JOIN `categories` ON `tours`.`categories` = `categories`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-10 08:28:34 --> mysqli_sql_exception: Unknown column 'tours_trip_map_image' in 'field list' in D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tours`....', 0)
+#1 D:\Projects\orgoto-web\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tours`....')
+#2 D:\Projects\orgoto-web\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tours`....')
+#3 D:\Projects\orgoto-web\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`....', Array, false)
+#4 D:\Projects\orgoto-web\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\orgoto-web\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Projects\orgoto-web\app\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+#7 D:\Projects\orgoto-web\app\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+#8 D:\Projects\orgoto-web\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#9 D:\Projects\orgoto-web\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Projects\orgoto-web\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\orgoto-web\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-10 08:28:34 --> Unknown column 'tours_trip_map_image' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tours`.`id` as `tours_id`, `tours`.`cover_image` as `tour_cover_image`, `tours`.`title` as `tours_title`, `tours`.`short_description` as `tours_sh_desc`, `tours`.`price` as `tours_price`, `tours`.`duration` as `tours_duration`, `tours`.`journey_date_1` as `tours_j1`, `tours`.`journey_date_2` as `tours_j2`, `tours_trip_map_image` as `tours_tmap`, `categories`.`name` as `c_name`
+FROM `tours`
+JOIN `categories` ON `tours`.`categories` = `categories`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ToursModel.php(47): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(16): App\Models\ToursModel->getToursDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:27:58 --> Undefined array key "duration"
+in APPPATH\Views\web\home.php on line 36.
+ 1 APPPATH\Views\web\home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:31:06 --> Undefined array key "name"
+in APPPATH\Views\web\home.php on line 40.
+ 1 APPPATH\Views\web\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:31:16 --> Undefined array key "price"
+in APPPATH\Views\web\home.php on line 49.
+ 1 APPPATH\Views\web\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:34:09 --> Trying to access array offset on value of type int
+in APPPATH\Views\web\home.php on line 33.
+ 1 APPPATH\Views\web\home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:34:25 --> Undefined constant "condition"
+in APPPATH\Views\web\home.php on line 51.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 4 APPPATH\Controllers\Home.php(28): view('web/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:40:51 --> Undefined variable $place
+in APPPATH\Views\web\home.php on line 53.
+ 1 APPPATH\Views\web\home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $place', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:41:02 --> Undefined array key "name"
+in APPPATH\Views\web\home.php on line 53.
+ 1 APPPATH\Views\web\home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:46:09 --> Undefined array key "tours_id"
+in APPPATH\Views\web\home.php on line 52.
+ 1 APPPATH\Views\web\home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tours_id"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:47:39 --> Undefined array key 1
+in APPPATH\Views\web\home.php on line 57.
+ 1 APPPATH\Views\web\home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 16:49:25 --> Array to string conversion
+in APPPATH\Views\web\home.php on line 52.
+ 1 APPPATH\Views\web\home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/home', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('web/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

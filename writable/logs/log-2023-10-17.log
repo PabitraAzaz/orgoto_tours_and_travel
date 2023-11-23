@@ -1,0 +1,84 @@
+INFO - 2023-10-17 08:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 08:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 09:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-17 19:50:53 --> Undefined array key "id"
+in APPPATH\Views\web\tour-detail.php on line 65.
+ 1 APPPATH\Views\web\tour-detail.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/tour-detail', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('web/tour-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tourdetails('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:53:16 --> Call to undefined function set_value()
+in APPPATH\Views\web\tour-detail.php on line 69.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/tour-detail', [], true)
+ 4 APPPATH\Controllers\Home.php(52): view('web/tour-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tourdetails('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:54:07 --> Undefined array key "journey_date_1"
+in APPPATH\Views\web\tour-detail.php on line 88.
+ 1 APPPATH\Views\web\tour-detail.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "journey_date_1"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/tour-detail', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('web/tour-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tourdetails('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:55:45 --> Undefined array key "tours_j12"
+in APPPATH\Views\web\tour-detail.php on line 92.
+ 1 APPPATH\Views\web\tour-detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tours_j12"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/tour-detail', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('web/tour-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tourdetails('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:56:20 --> Undefined array key "tours_j12"
+in APPPATH\Views\web\tour-detail.php on line 92.
+ 1 APPPATH\Views\web\tour-detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tours_j12"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/tour-detail', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('web/tour-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tourdetails('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:56:34 --> Undefined array key "tours_j12"
+in APPPATH\Views\web\tour-detail.php on line 92.
+ 1 APPPATH\Views\web\tour-detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tours_j12"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/tour-detail', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('web/tour-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tourdetails('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:56:43 --> Undefined array key "tours_j12"
+in APPPATH\Views\web\tour-detail.php on line 92.
+ 1 APPPATH\Views\web\tour-detail.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tours_j12"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\tour-detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/tour-detail', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('web/tour-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->tourdetails('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-17 19:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 19:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 19:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 19:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-17 19:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

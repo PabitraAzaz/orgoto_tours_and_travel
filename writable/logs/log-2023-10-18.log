@@ -1,0 +1,167 @@
+INFO - 2023-10-18 08:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 08:53:33 --> Invalid file: "web/thank-you/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/thank-you/.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/thank-you/', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('web/thank-you/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->bookTour('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 08:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 08:54:29 --> Undefined array key "title"
+in APPPATH\Views\web\thank-you.php on line 95.
+ 1 APPPATH\Views\web\thank-you.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'D:\\Projects\\orgoto-web\\app\\Views\\web\\thank-you.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\web\\thank-you.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('web/thank-you', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('web/thank-you', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->bookTour('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 08:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 08:55:34 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 133.
+ 1 APPPATH\Controllers\Home.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Projects\\orgoto-web\\app\\Controllers\\Home.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->bookTour('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 08:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 08:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 09:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 16:51:47 --> Undefined array key "jouney_date"
+in APPPATH\Views\admin\booking.php on line 38.
+ 1 APPPATH\Views\admin\booking.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jouney_date"', 'D:\\Projects\\orgoto-web\\app\\Views\\admin\\booking.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\admin\\booking.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/booking', [], true)
+ 5 APPPATH\Controllers\AdminController\DashboardController.php(39): view('admin/booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController\DashboardController->tour_book()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 16:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-18 16:51:54 --> Undefined variable $id
+in APPPATH\Views\admin\booking.php on line 41.
+ 1 APPPATH\Views\admin\booking.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\Projects\\orgoto-web\\app\\Views\\admin\\booking.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Projects\\orgoto-web\\app\\Views\\admin\\booking.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/booking', [], true)
+ 5 APPPATH\Controllers\AdminController\DashboardController.php(39): view('admin/booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController\DashboardController->tour_book()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 16:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 16:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 18:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 18:57:25 --> mysqli_sql_exception: Unknown column 'tour_bookings*' in 'field list' in D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tour_bo...', 0)
+#1 D:\Projects\orgoto-web\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tour_bo...')
+#2 D:\Projects\orgoto-web\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tour_bo...')
+#3 D:\Projects\orgoto-web\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tour_bo...', Array, false)
+#4 D:\Projects\orgoto-web\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\orgoto-web\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Projects\orgoto-web\app\Models\TourBookModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 D:\Projects\orgoto-web\app\Controllers\AdminController\DashboardController.php(36): App\Models\TourBookModel->getTour()
+#8 D:\Projects\orgoto-web\system\CodeIgniter.php(919): App\Controllers\AdminController\DashboardController->tour_book()
+#9 D:\Projects\orgoto-web\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\DashboardController))
+#10 D:\Projects\orgoto-web\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\orgoto-web\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 18:57:25 --> Unknown column 'tour_bookings*' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tour_bookings*`
+FROM `tour_bookings`
+JOIN `tours` ON `tour_bookings`.`tours_id`=`tours`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TourBookModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminController\DashboardController.php(36): App\Models\TourBookModel->getTour()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController\DashboardController->tour_book()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 18:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 19:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-18 19:00:00 --> mysqli_sql_exception: Unknown column 'tour_bookings.journey_date as journey_date tours.title' in 'field list' in D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Projects\orgoto-web\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `tour_bo...', 0)
+#1 D:\Projects\orgoto-web\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tour_bo...')
+#2 D:\Projects\orgoto-web\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tour_bo...')
+#3 D:\Projects\orgoto-web\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tour_bo...', Array, false)
+#4 D:\Projects\orgoto-web\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Projects\orgoto-web\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Projects\orgoto-web\app\Models\TourBookModel.php(46): CodeIgniter\BaseModel->findAll()
+#7 D:\Projects\orgoto-web\app\Controllers\AdminController\DashboardController.php(36): App\Models\TourBookModel->getTour()
+#8 D:\Projects\orgoto-web\system\CodeIgniter.php(919): App\Controllers\AdminController\DashboardController->tour_book()
+#9 D:\Projects\orgoto-web\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\DashboardController))
+#10 D:\Projects\orgoto-web\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Projects\orgoto-web\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-18 19:00:00 --> Unknown column 'tour_bookings.journey_date as journey_date tours.title' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `tour_bookings`.`id` as `id`, `tour_bookings`.`name` as `name`, `tour_bookings`.`email` as `email`, `tour_bookings`.`phone_no` as `phone_no`, `tour_bookings`.`message` as `message`, `tour_bookings`.`people` as `people`, `tour_bookings`.`journey_date as journey_date tours`.`title` as `title`
+FROM `tour_bookings`
+JOIN `tours` ON `tour_bookings`.`tours_id`=`tours`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TourBookModel.php(46): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminController\DashboardController.php(36): App\Models\TourBookModel->getTour()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController\DashboardController->tour_book()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 19:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 19:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 19:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-18 19:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
